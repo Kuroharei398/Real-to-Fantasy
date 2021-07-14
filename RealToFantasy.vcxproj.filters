@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Enemy">
+      <UniqueIdentifier>{6c3c9c1a-4c2a-487b-87e2-07fa6dcf865c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ZEnemy">
+      <UniqueIdentifier>{0a5bb1f4-5c58-4697-a525-78fa0c1f1645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Stage">
+      <UniqueIdentifier>{003051eb-509d-4746-8733-445e7b7b0e36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game">
+      <UniqueIdentifier>{7d60db11-0a1d-4f16-b2ad-9219e5e774ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Zbullet">
+      <UniqueIdentifier>{0690bec0-0e1f-43bd-9f79-6f2dee2b9873}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Ziki">
+      <UniqueIdentifier>{2d7ceec9-96d7-4d2b-a565-abe0e445f8c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Title">
+      <UniqueIdentifier>{bb9c3588-21c4-4f62-ad6d-0731053893ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダーファイル">
+      <UniqueIdentifier>{612f0da1-79f9-4403-9f1c-a0f0794fc4e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダーファイル\Enemy">
+      <UniqueIdentifier>{07299a40-5d62-47d7-8385-66c978cc4245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダーファイル\stage">
+      <UniqueIdentifier>{7377b35d-31c0-41c5-b7d6-8bd97a4750d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダーファイル\Title">
+      <UniqueIdentifier>{18f660b3-7b96-4935-9f7a-77b72eb076a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダーファイル\Zbullet">
+      <UniqueIdentifier>{fd3bbbb0-4585-4abf-8720-298e3f0307d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダーファイル\ZEnemy">
+      <UniqueIdentifier>{459fcc0c-df8d-400e-876d-4959aa3757c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダーファイル\Ziki">
+      <UniqueIdentifier>{c069bfe1-acfd-45b1-9b03-300643f146b9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="fps.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="RealToFantasy.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Eballet_Reset.cpp">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy_Bullet.cpp">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy_Colider.cpp">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy_Life.cpp">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy_LifeReset.cpp">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy_Moving.cpp">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy_Movingreset.cpp">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy_ResetManager.cpp">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManeger.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage_Reset.cpp">
+      <Filter>ソース ファイル\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage_ResetManager.cpp">
+      <Filter>ソース ファイル\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage_Scroll.cpp">
+      <Filter>ソース ファイル\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>ソース ファイル\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleReset.cpp">
+      <Filter>ソース ファイル\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Zbullet_Colider.cpp">
+      <Filter>ソース ファイル\Zbullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Zbullet_Moving.cpp">
+      <Filter>ソース ファイル\Zbullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Zbullet_Reset.cpp">
+      <Filter>ソース ファイル\Zbullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Zbullet_ResetManager.cpp">
+      <Filter>ソース ファイル\Zbullet</Filter>
+    </ClCompile>
+    <ClCompile Include="ZEnemy_Colider.cpp">
+      <Filter>ソース ファイル\ZEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="ZEnemy_Moving.cpp">
+      <Filter>ソース ファイル\ZEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="ZEnemy_MovingReset.cpp">
+      <Filter>ソース ファイル\ZEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="ZEnemy_Pitem.cpp">
+      <Filter>ソース ファイル\ZEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="ZEnemy_PitemReset.cpp">
+      <Filter>ソース ファイル\ZEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="ZEnemy_ResetManager.cpp">
+      <Filter>ソース ファイル\ZEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Ziki_Colider.cpp">
+      <Filter>ソース ファイル\Ziki</Filter>
+    </ClCompile>
+    <ClCompile Include="Ziki_Life.cpp">
+      <Filter>ソース ファイル\Ziki</Filter>
+    </ClCompile>
+    <ClCompile Include="Ziki_LifeReset.cpp">
+      <Filter>ソース ファイル\Ziki</Filter>
+    </ClCompile>
+    <ClCompile Include="Ziki_Moving.cpp">
+      <Filter>ソース ファイル\Ziki</Filter>
+    </ClCompile>
+    <ClCompile Include="Ziki_MovingReset.cpp">
+      <Filter>ソース ファイル\Ziki</Filter>
+    </ClCompile>
+    <ClCompile Include="Ziki_ResetManager.cpp">
+      <Filter>ソース ファイル\Ziki</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ProtoType.h">
+      <Filter>ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Eballet_Reset.h">
+      <Filter>ヘッダーファイル\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy_Bullet.h">
+      <Filter>ヘッダーファイル\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy_Colider.h">
+      <Filter>ヘッダーファイル\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy_Life.h">
+      <Filter>ヘッダーファイル\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy_LifeReset.h">
+      <Filter>ヘッダーファイル\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy_Moving.h">
+      <Filter>ヘッダーファイル\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy_Movingreset.h">
+      <Filter>ヘッダーファイル\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy_ResetManager.h">
+      <Filter>ヘッダーファイル\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage_Reset.h">
+      <Filter>ヘッダーファイル\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage_ResetManager.h">
+      <Filter>ヘッダーファイル\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage_Scrol.h">
+      <Filter>ヘッダーファイル\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>ヘッダーファイル\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleReset.h">
+      <Filter>ヘッダーファイル\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Zbullet.Colider.h">
+      <Filter>ヘッダーファイル\Zbullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Zbullet_Moving.h">
+      <Filter>ヘッダーファイル\Zbullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Zbullet_Reset.h">
+      <Filter>ヘッダーファイル\Zbullet</Filter>
+    </ClInclude>
+    <ClInclude Include="ZbulletResetManager.h">
+      <Filter>ヘッダーファイル\Zbullet</Filter>
+    </ClInclude>
+    <ClInclude Include="ZEnemy_Colaider.h">
+      <Filter>ヘッダーファイル\ZEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ZEnemy_Moving.h">
+      <Filter>ヘッダーファイル\ZEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ZEnemy_MovingReset.h">
+      <Filter>ヘッダーファイル\ZEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ZEnemy_Pitem.h">
+      <Filter>ヘッダーファイル\ZEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ZEnemy_PitemReset.h">
+      <Filter>ヘッダーファイル\ZEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ZEnemy_ResetManager.h">
+      <Filter>ヘッダーファイル\ZEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Ziki_Colider.h">
+      <Filter>ヘッダーファイル\Ziki</Filter>
+    </ClInclude>
+    <ClInclude Include="Ziki_Life.h">
+      <Filter>ヘッダーファイル\Ziki</Filter>
+    </ClInclude>
+    <ClInclude Include="Ziki_LifeReset.h">
+      <Filter>ヘッダーファイル\Ziki</Filter>
+    </ClInclude>
+    <ClInclude Include="Ziki_Moving.h">
+      <Filter>ヘッダーファイル\Ziki</Filter>
+    </ClInclude>
+    <ClInclude Include="Ziki_MovingReset.h">
+      <Filter>ヘッダーファイル\Ziki</Filter>
+    </ClInclude>
+    <ClInclude Include="Ziki_ResetManager.h">
+      <Filter>ヘッダーファイル\Ziki</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>ヘッダーファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
